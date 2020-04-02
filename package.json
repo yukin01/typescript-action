@@ -11,18 +11,18 @@
     "lint": "eslint src/**/*.ts",
     "bundle": "ncc build",
     "test": "jest",
-    "all": "yarn format && yarn lint && yarn test && yarn build && yarn bundle"
+    "all": "yarn format-check && yarn lint && yarn test && yarn build && yarn bundle"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/yukin01/typescript-action.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "YourNameOrOrganization",
+  "author": "yukin01<bump1105@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.0"
